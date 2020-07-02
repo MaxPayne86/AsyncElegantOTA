@@ -1,11 +1,8 @@
 ## Introduction
 
-Find source code of user interface in original ElegantOTA repository.
+Find source code of user interface in original ElegantOTA repository [here](https://github.com/ayushsharma82/ElegantOTA/tree/master/ui).
 
-* [Click Here](https://github.com/ayushsharma82/ElegantOTA/tree/master/ui).
-
-##  How to customize the web page for AsyncElegantOTA library;
-
+##  How to customize the web page for AsyncElegantOTA library
 
 ### Prepare the environment
 
@@ -13,7 +10,7 @@ Find source code of user interface in original ElegantOTA repository.
 2. Install npm. On Ubuntu sudo apt-get install npm.
 3. On folder ElegantOTA/ui/ open a shell and run the command npm install.
 
-### CHANGE THE FAVICON
+### Change the favicon
 
 1. Convert your favicon.ico to png format.
 2. Convert your favicon.png image to base64 (you can use this online tool: https://www.base64-image.de/). You will obtain a code like this one:
@@ -91,26 +88,3 @@ with the line
 1. On folder ElegantOTA/ui/ open a shell and run the command npm run build. It will generate a new elegantWebpage.h file in the folder ElegantOTA/src/.
 2. Copy this file and paste it in folder AsyncElegantOTA/src/  (substitute the previous file).
 3. Done!
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
